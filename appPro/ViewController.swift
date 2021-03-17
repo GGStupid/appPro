@@ -8,14 +8,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+//
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         view.backgroundColor = .green
-        title = "耳机也没"
+        title = "bbb"
         
-        navigationItem.title = "aaa"
+        
+    
     }
 
 

@@ -18,23 +18,23 @@ class MainTabBarController: UITabBarController {
     
     func initTabBar() {
     
-        let home = UINavigationController(rootViewController: HomeViewController())
+        let home = CustomNavigationController(rootViewController: HomeViewController())
         home.tabBarItem.title = "首页"
         home.tabBarItem.image = UIImage(named: "home.png")
         
-        let category = UINavigationController(rootViewController: CartViewController())
+        let category = CustomNavigationController(rootViewController: CartViewController())
         category.tabBarItem.title = "分类"
         category.tabBarItem.image = UIImage(named: "category.png")
         
-        let found = UINavigationController(rootViewController: FoundViewController())
+        let found = CustomNavigationController(rootViewController: FoundViewController())
         found.tabBarItem.title = "发现"
         found.tabBarItem.image = UIImage(named: "found.png")
         
-        let cart = UINavigationController(rootViewController: CartViewController())
+        let cart = CustomNavigationController(rootViewController: CartViewController())
         cart.tabBarItem.title = "购物车"
         cart.tabBarItem.image = UIImage(named: "cart.png")
         
-        let mine = UINavigationController(rootViewController: MineViewController())
+        let mine = CustomNavigationController(rootViewController: MineViewController())
         mine.tabBarItem.title = "我的"
         mine.tabBarItem.image = UIImage(named: "mine.png")
         

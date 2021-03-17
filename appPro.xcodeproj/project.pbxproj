@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D13883D426019A2700012F52 /* baseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13883D326019A2700012F52 /* baseViewController.swift */; };
+		D13883DC26019B8800012F52 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13883DB26019B8800012F52 /* CustomNavigationController.swift */; };
 		D1676BD52600850000F7AF2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1676BD42600850000F7AF2A /* AppDelegate.swift */; };
 		D1676BD72600850000F7AF2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1676BD62600850000F7AF2A /* SceneDelegate.swift */; };
 		D1676BD92600850000F7AF2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1676BD82600850000F7AF2A /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D13883D326019A2700012F52 /* baseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baseViewController.swift; sourceTree = "<group>"; };
+		D13883DB26019B8800012F52 /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		D1676BD12600850000F7AF2A /* appPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1676BD42600850000F7AF2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1676BD62600850000F7AF2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D13883D226019A0200012F52 /* BaseControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D13883D326019A2700012F52 /* baseViewController.swift */,
+				D13883DB26019B8800012F52 /* CustomNavigationController.swift */,
+			);
+			path = BaseControllers;
+			sourceTree = "<group>";
+		};
 		D1676BC82600850000F7AF2A = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +127,7 @@
 				D1676C1626008F9900F7AF2A /* TabBarController */,
 				D1676BD62600850000F7AF2A /* SceneDelegate.swift */,
 				D1676BD82600850000F7AF2A /* ViewController.swift */,
+				D13883D226019A0200012F52 /* BaseControllers */,
 				D1676BDD2600850100F7AF2A /* Assets.xcassets */,
 				D1676BDF2600850100F7AF2A /* LaunchScreen.storyboard */,
 				D1676BE22600850100F7AF2A /* Info.plist */,
@@ -288,9 +302,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D13883DC26019B8800012F52 /* CustomNavigationController.swift in Sources */,
 				D1676C242600909900F7AF2A /* HomeViewController.swift in Sources */,
 				D1676BD92600850000F7AF2A /* ViewController.swift in Sources */,
 				D1676C3B260090D600F7AF2A /* MineViewController.swift in Sources */,
+				D13883D426019A2700012F52 /* baseViewController.swift in Sources */,
 				D1676BD52600850000F7AF2A /* AppDelegate.swift in Sources */,
 				D1676C182600900800F7AF2A /* MainTabBarController.swift in Sources */,
 				D1676C36260090CC00F7AF2A /* CartViewController.swift in Sources */,

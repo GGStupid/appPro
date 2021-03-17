@@ -7,14 +7,20 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeViewController: baseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
         title = "首页"
-        navigationItem.title = "aaa"
+        let backBarItem = UIBarButtonItem()
+        backBarItem.title="上一步"
+        navigationItem.backBarButtonItem=backBarItem
+        
+//        hidesBottomBarWhenPushed = true
+        
+        
         
         let label = UILabel(frame: CGRect.zero)
         label.text = "home"
